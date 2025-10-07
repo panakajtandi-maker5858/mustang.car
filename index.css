@@ -1,0 +1,111 @@
+@font-face {
+    font-family: fac;
+    src: url(./Bloom-3lggy.ttf);
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+a{
+  color:white;
+}
+html , body{
+    height:100%;
+    width:100%;
+  box-sizing: border-box;
+
+}
+.main{
+  height:100vh;
+  background-image:url(./2021-dodge-wallpaper-challenger-06.jpg.image.1440.jpeg);
+background-size:cover;
+color:white;
+}
+.navbar{
+  display:flex;
+  padding:10px 30px;
+  justify-content: space-between;
+}
+.navbar img{
+  position:absolute;
+  left:7.5em;
+  height:20px;
+top:1em;
+}
+ul{
+ padding-top:4.5px;
+}
+.main a{
+  font-family: fac;
+text-decoration: none;
+  padding-right:30px;
+  font-weight:bolder;
+}
+.navbar a:hover{
+    font-size:18px;
+  text-decoration: underline;
+  padding-right:30px;
+  font-weight:bolder;
+}
+.main .heading{
+  margin-top:1.508em;
+  font-size: 80px;
+  text-align:center;
+  height:2em;
+}
+.leftsection{
+  padding:0em 4em;
+  margin-top:7.3em;
+}
+.Part1{
+  width:14em;
+}
+h3{
+  font-size:20px;
+  padding-top:1em;
+  padding-bottom: 1px;
+}
+p{
+  font-size: 14px;
+}
+.footer{
+  padding:4em 4em 0em 4em;
+  font-size:18px;
+  display:flex;
+  justify-content: space-between;
+  height:2em;
+}
+.footer a{
+  padding-right:70px;
+  font-weight:bolder;
+  font-size: large;
+}
+.footer a:hover{
+  text-decoration: underline;
+  font-size:19px;
+    font-weight:bolder;
+}
+.footer h5{
+  font-size:18px;
+}
+.images img{
+  height:14em;
+left:52em;
+}
+#img1{
+    position:absolute;
+  left:51.3em;
+  top:19.6em;
+}
+#img2{
+    position:absolute;
+   left:59.2em;
+  bottom:3.7em;
+}
+#img3{
+    position:absolute;
+   left:65.2em;
+  top:17.3em;
+}
+
+
