@@ -1,6 +1,10 @@
 @font-face {
     font-family: fac;
-    src: url(./Bloom-3lggy.ttf);
+    src: url(./Bloom-3lggy.woff2);
+}
+@font-face {
+  font-family: see;
+  src: url(./Swinging\ Wake.woff2);
 }
 *{
     margin: 0;
@@ -17,7 +21,7 @@ html , body{
 }
 .main{
   height:100vh;
-  background-image:url(./2021-dodge-wallpaper-challenger-06.jpg.image.1440.jpeg);
+  background-image:url(./2021-dodge-wallpaper-challenger-06.jpg.image.1440.webp);
 background-size:cover;
 color:white;
 }
